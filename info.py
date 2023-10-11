@@ -36,8 +36,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/Seemovies_support')
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/See_update')
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/movie_funda_backup')
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/movie_funda_backup')
 USERNAME = environ.get('USERNAME', 'https://t.me/JNGohell')
 # Bot settings
 AUTO_FILTER = is_enabled((environ.get('AUTO_FILTER', "True")), True)
@@ -55,10 +55,10 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 # Other
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "✅ I Found: <code>{query}</code>\n\n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating} / 10</a>\n☀️ Languages: {languages}\n📀 RunTime: {runtime} Minutes\n\n🗣 Requested by: {message.from_user.mention}\n©️ Powered by: <b>{message.chat.title}</b>")
 FILE_CAPTION = environ.get("FILE_CAPTION", "<i>{file_name}</i>\n\nᴘʟᴇᴀsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄʟᴏsᴇ ʙᴜᴛᴛᴏɴ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ sᴇᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ")
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "jnglink.in")
-SHORTLINK_API = environ.get("SHORTLINK_API", "93afdd16e98ac2ba9461051503e759f4da683333")
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "sheralinks.com")
+SHORTLINK_API = environ.get("SHORTLINK_API", "433d789f076d76614b7e8f5b0c2618059a63b679")
 WELCOME_TEXT = environ.get("WELCOME_TEXT", "Hello {mention}, Welcome to {title} group!")
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/SL_Bots_Updates")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/movie_funda_backup")
 
 # stream features vars
 """Deploy this repo: https://github.com/adarsh-goel/filestreambot"""
